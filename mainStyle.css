@@ -12,6 +12,7 @@ body {
   padding: 0;
   /* Default: Portrait (mobile) - stretch image to fit exactly top to bottom */
   background-size: 100% 100%;
+  scrollbar-gutter: stable;
 }
 
 /* Landscape (desktop/tablet) - ensure image covers left and right */
