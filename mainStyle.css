@@ -108,7 +108,6 @@ a {
   display: flex;
   flex: 1;
   justify-content: space-evenly;
-  margin-left: 30px;
   background: rgba(1, 170, 255, 0.15);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
