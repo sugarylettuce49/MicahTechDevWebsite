@@ -1,0 +1,138 @@
+@font-face {
+  font-family: CartoonFont;
+  src: url(Patrick_Hand/PatrickHand-Regular.ttf);
+}
+
+body {
+  background-color: #001b2d;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  /* Default: Portrait (mobile) - stretch image to fit exactly top to bottom */
+  background-size: 100% 100%;
+}
+
+/* Landscape (desktop/tablet) - ensure image covers left and right */
+@media (orientation: landscape) {
+  body {
+    background-size: 100% auto;
+  }
+}
+
+h1 {
+  font-family: CartoonFont;
+  font-size: 64px;
+}
+
+h2 {
+  font-family: CartoonFont;
+  color: #ffffff;
+  font-size: 48px;
+  text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.9), 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+h4 {
+  font-family: CartoonFont;
+  color: #f3f3f3;
+  font-size: 32px;
+  text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.9), 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+h5 {
+  font-family: CartoonFont;
+  color: #f3f3f3;
+  font-size: 24px;
+  text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.9), 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+a {
+  font-family: CartoonFont;
+}
+
+.contentFR {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 8px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.contentMed {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 8px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.contentSmol {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 8px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  max-width: fit-content;
+  margin: 20px auto;
+}
+
+.contentFR h2, .contentFR h4{
+  margin-top: 0;
+}
+
+.contentMed h2, .contentMed h4{
+  margin-top: 0;
+}
+
+.contentSmol h5 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 32px;
+}
+
+.nav-links {
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
+  margin-left: 30px;
+  background: rgba(1, 170, 255, 0.15);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 8px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.nav-links a {
+  color: rgb(0, 200, 255);
+  text-decoration: none;
+  font-size: 64px;
+  text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.9), 3px 3px 15px rgba(0, 0, 0, 0.8), -3px -3px 15px rgba(0, 0, 0, 0.8);
+}
+
+.nav-links a:hover {
+  color: #8B4513;
+}
+
+.linkfr a {
+  color: rgb(0, 200, 255);
+  text-decoration: none;
+  text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.9), 3px 3px 15px rgba(0, 0, 0, 0.8), -3px -3px 15px rgba(0, 0, 0, 0.8);
+}
+
+.linkfr a:hover {
+  color: #8B4513;
+}
