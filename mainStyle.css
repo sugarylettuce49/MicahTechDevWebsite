@@ -12,6 +12,7 @@ body {
   padding: 0;
   /* Default: Portrait (mobile) - stretch image to fit exactly top to bottom */
   background-size: 100% 100%;
+  scrollbar-gutter: stable;
 }
 
 /* Landscape (desktop/tablet) - ensure image covers left and right */
@@ -107,13 +108,13 @@ a {
   display: flex;
   flex: 1;
   justify-content: space-evenly;
-  margin-left: 30px;
   background: rgba(1, 170, 255, 0.15);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: 20px;
   padding: 8px 16px;
   border: 1px solid rgba(255, 255, 255, 0.2);
+  margin-left: 0;
 }
 
 .nav-links a {
